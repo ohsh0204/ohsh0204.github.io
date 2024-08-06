@@ -1,14 +1,36 @@
 * {
   color: hotpink;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+.sankofa {
+  color: rgb(139, 22, 242);
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.my-class {
+  padding: 10px;
+  color: green;
+}
+/* i colored all my h1 brown because blah blah */
 h1 {
   color: brown;
+  padding: 10px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {
   color: blue;
 }
-
+h2 {
+  color: black;
+}
 p,
 h3,
 .my-class {
@@ -18,10 +40,10 @@ h3,
 /* h3 {
   color: black;
 } */
-/* .my-class {
+.my-class {
   padding: 10px;
   color: green;
-} */
+}
 
 #my-id {
   color: magenta;
@@ -32,4 +54,22 @@ p > strong {
 }
 span {
   display: block;
+}
+article {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  /* border-width: 3px;
+  border-style: dotted;
+  border-color: blue; */
+  border: 3px dotted blue;
+  padding: 20px;
+}
+
+p {
+  border: 1px dashed brown;
+  padding: 40px;
+  /* width: 200px; */
+  /* line-height: 1.6; */
+  font-family: "Times New Roman", Times, serif;
 }
