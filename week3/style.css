@@ -1,0 +1,35 @@
+* {
+  color: hotpink;
+}
+h1 {
+  color: brown;
+}
+
+h2 {
+  color: blue;
+}
+
+p,
+h3,
+.my-class {
+  color: red;
+}
+
+/* h3 {
+  color: black;
+} */
+/* .my-class {
+  padding: 10px;
+  color: green;
+} */
+
+#my-id {
+  color: magenta;
+}
+
+p > strong {
+  color: black;
+}
+span {
+  display: block;
+}
