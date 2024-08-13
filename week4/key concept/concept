@@ -1,0 +1,28 @@
+box model
+margin: make space between 2 boxes
+boarder: make space in the particular box (kind of box line)
+padding: make space between border and ::content
+
+border 3 key style
+1.W & h
+2.Color
+3.line size
+
+Box sizing
+Border box & content box
+
+Display option
+Flex, grid 
+
+Flex: justify Content 
+horizental-
+Vertical-
+
+Align Flex items
+stretch: left center right 
+Gap: make gap between content 
+
+Grid 
+use "Fr: fraction units" rather then PX
+Grid-template-columns: 1fr, 1fr, 1fr
+Grid-template-row: 1fr,1fr,1fr
