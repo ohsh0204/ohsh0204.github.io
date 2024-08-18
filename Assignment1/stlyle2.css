@@ -1,5 +1,7 @@
 body {
+  /* I made Colored background body and grid system for body */
   background-color: #1a120b;
+  display: grid;
   text-align: center;
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
@@ -7,33 +9,24 @@ body {
   font-style: normal;
   color: #ffffff;
   font-size: 2rem;
-}
-
-.top {
-  background-color: #1a120b;
-  display: inline-flex;
-  text-align: center;
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 2rem;
-  align-items: start;
+  align-items: center;
 }
 
 h2 {
   background-color: lightgreen;
   text-align: center;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
+/* Same grid system but diffrent background color between Q&A */
 p {
-  background-color: lightcoral;
+  background-color: lightblue;
   text-align: center;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,8 +39,4 @@ p {
 
 #box2 {
   background-color: lightgreen;
-}
-
-img {
-  margin: auto;
 }
