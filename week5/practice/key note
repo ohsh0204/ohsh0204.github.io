@@ -1,0 +1,16 @@
+Js Variables
+Const: unchangable storing data
+let: changable storing data
+Js Variables Tyipes
+1. string inside of the ""
+2. number
+3. object: specific details
+4. boolean: true & false 
+5. null
+6. undefined
+
+Logical Operators
+1. && and 
+both of the value is true -> true
+2.
+3. ! not 
