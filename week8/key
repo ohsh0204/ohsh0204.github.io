@@ -1,0 +1,9 @@
+DOM : document of object model
+DOM tree = nodes
+window : entire browser window
+document : only the current tab
+navigator: giv esome access to go SW
+
+selecting DOM elements
+1. querySelector
+2. querySelectorAll
