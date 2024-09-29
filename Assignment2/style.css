@@ -75,9 +75,17 @@
   }
   
   /* Media player styling */
+  /* I studied and implemented code to ensure that the media player adjusts according to the screen size. */
   .media-player {
+    padding-top: 58%;
+    position: relative;
+  }
+  .media-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin: 0 auto;
+    height: 100%;
   }
   
   .media-player video {
