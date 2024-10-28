@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  overflow-x: hidden; /*In any devices, not to make horizental scroll */
+}
+
+.navbar {
+  position: fixed; /* fixed on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(101, 93, 93, 0.7);
+  color: white;
+  padding: 10px 0;
+  z-index: 1000; /* to make navigation bar on the top of the web */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.section {
+    height: 100vh; /* each sections fully contain the web page */
+    display: flex; 
+    justify-content: center; /* Alligning in center horizentally */
+    align-items: center; /* Alligning in center vertically */
+    flex-direction: column; 
+    text-align: left; 
+    padding: 20px; 
+  color: white;
+  transition: opacity 0.5s ease; /* Smooth changing effects on webpage */
+}
+
+.section img {
+  max-width: 100%; 
+  height: auto; /* to make img looks same whth diffrent divices */
+  margin: 20px 0; /* margin between Img and txt */
+  
+}
+.section h1 {
+    text-align: center; 
+    margin-bottom: 10px; 
+    
+}
+.section h2 {
+    text-align: center; 
+    margin-bottom: 10px; /* mafgin between heading and img */\
+    
+}
+
+.section p {
+    text-align: left; /* text align mid*/
+}
+
+.section1 {
+  background-color: #3498db;
+} 
+.section2 {
+  background-color: #2ecc71;
+} 
+.section3 {
+  background-color: #e74c3c;
+} 
+.section4 {
+  background-color: #9b59b6;
+} 
+.section5 {
+  background-color: #f39c12;
+} 
+.section6 {
+  background-color: #34495e;
+} 
+
+.section {
+  opacity: 0.8; /* normal opacity */
+}
+
+.section.active {
+  opacity: 1; /* activated section's opacity */
+}
