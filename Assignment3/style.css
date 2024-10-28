@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -44,7 +44,6 @@ body {
     flex-direction: column; 
     text-align: left; 
     padding: 20px; 
-  color: white;
   transition: opacity 0.5s ease; /* Smooth changing effects on webpage */
 }
 
@@ -52,7 +51,6 @@ body {
   max-width: 100%; 
   height: auto; /* to make img looks same whth diffrent divices */
   margin: 20px 0; /* margin between Img and txt */
-  
 }
 .section h1 {
     text-align: center; 
